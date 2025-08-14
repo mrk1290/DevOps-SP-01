@@ -4,5 +4,7 @@ resource "azurerm_resource_group" "rg" {
   tags = {
     owner = "Rizwan"
     createdBy = "Terraform"
+    projectcode = "B-001"
+    terraform = "true"
   }
 }
