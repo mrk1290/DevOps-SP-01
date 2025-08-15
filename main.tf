@@ -9,7 +9,7 @@ resource "azurerm_resource_group" "rg" {
   }
 }
 resource "azurerm_storage_account" "strgaccnt" {
-  name = "devops_az_storage_accnt_01"
+  name = var.azurerm_storage_account
   resource_group_name = var.resource_group_name
   location = var.azurerm_rg_location
   account_tier = "Standard"
