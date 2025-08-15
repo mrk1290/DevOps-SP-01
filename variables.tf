@@ -9,6 +9,12 @@ variable "azurerm_rg_location" {
     type = string
     default = "eastus"
 }
+
+variable "azurerm_storage_account" {
+    description = "Storage Account"
+    type = string
+    default = "devopsazstorageaccnt01"
+}
   variable "subscription_id" {
     description = "Subscription Id"
     type = string
